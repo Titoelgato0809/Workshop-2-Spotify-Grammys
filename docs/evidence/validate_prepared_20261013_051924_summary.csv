@@ -1,0 +1,20 @@
+rule_id,expectation,column,severity,success,element_count,unexpected_count,unexpected_percent
+P01,expect_table_columns_to_match_set,(tabla),critical,True,,,
+P04,expect_compound_columns_to_be_unique,"track_id, track_genre, year, category, nominee",critical,True,117859.0,0.0,0.0
+P02,expect_column_values_to_be_in_set,match_status,critical,True,117859.0,0.0,0.0
+P03,expect_column_values_to_be_in_set,nominee_type,critical,True,4545.0,0.0,0.0
+P05,expect_column_values_to_be_between,win_count,critical,True,4545.0,0.0,0.0
+P06,expect_column_values_to_not_be_null,track_id,warning,True,2370.0,2063.0,87.04641350210971
+P08,expect_column_values_to_not_be_null,track_id,critical,True,113621.0,0.0,0.0
+P07,expect_column_values_to_not_be_null,winner_album_name,warning,True,1429.0,1302.0,91.11266620013996
+P09,expect_column_values_to_not_be_null,track_genre,critical,True,113621.0,0.0,0.0
+P10,expect_column_values_to_be_between,energy,critical,True,113621.0,0.0,0.0
+P10,expect_column_values_to_be_between,danceability,critical,True,113621.0,0.0,0.0
+P11,expect_column_values_to_be_between,popularity,critical,True,113621.0,0.0,0.0
+P12,expect_column_values_to_be_between,genre_weight,critical,True,113621.0,0.0,0.0
+P13,expect_column_values_to_be_between,duration_ms,warning,True,113621.0,16.0,0.014081903873403684
+P14,expect_column_values_to_be_in_set,duration_category,critical,True,113621.0,0.0,0.0
+P15,expect_column_values_to_be_between,year,critical,True,4545.0,0.0,0.0
+P16,expect_column_values_to_be_in_set,category_group,critical,True,4545.0,0.0,0.0
+P18,expect_column_values_to_not_be_in_set,category_group,info,True,4545.0,328.0,7.216721672167218
+P17,expect_column_values_to_not_be_in_set,grammy_artists,warning,True,4545.0,1374.0,30.23102310231023

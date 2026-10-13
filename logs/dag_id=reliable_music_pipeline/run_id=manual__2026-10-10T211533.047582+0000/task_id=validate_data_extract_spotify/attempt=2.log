@@ -1,0 +1,6 @@
+{"timestamp":"2026-10-10T21:37:09.977296Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 421. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-10-10T21:37:14.453321Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-10-10T21:37:14.474871Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/reliable_music_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-10-10T21:37:15.641990Z","level":"info","event":"Skipping registering function get_context because it does not have a class","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":115}
+{"timestamp":"2026-10-10T21:37:15.849744Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_found","message":"Task Instance not found"}},"logger":"task"}
+{"timestamp":"2026-10-10T21:37:15.886595Z","level":"error","event":"Task killed!","logger":"task"}

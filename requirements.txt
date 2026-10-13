@@ -1,0 +1,7 @@
+apache-airflow==3.3.2
+great_expectations==1.23.2
+numpy==2.5.4
+pandas==3.0.6
+pendulum==3.3.0
+python-dotenv==1.2.4
+SQLAlchemy==2.1.4
