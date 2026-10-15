@@ -244,6 +244,23 @@ def validations_spotify():
         "Validation Definition name:",
         validation_definition.name,
     )
+    #=========================================================
+    # [PRUEBA CONTROLADA DE ERRORES SPOTIFY - DESCOMENTAR PARA PROBAR]
+    # =========================================================
+    df_bad_spotify = df.copy()
+    # # Inyectar valores nulos en track_id (Falla Critical)
+    df_bad_spotify.loc[df_bad_spotify.index[:50], "track_id"] = None
+    # # Inyectar energía fuera de rango (Falla Critical)
+    df_bad_spotify.loc[df_bad_spotify.index[:50], "energy"] = 99.0
+    #
+    bad_spotify_result = validation_definition.run(
+         batch_parameters={"dataframe": df_bad_spotify},
+         result_format={"result_format": "SUMMARY"}
+     )
+    print("\n--- [PRUEBA CONTROLADA SPOTIFY] ---")
+    print("Éxito de la validación con datos corruptos:", bad_spotify_result.success)
+    # =========================================================
+    
 
     # ---------------------------------------------------------
     # Step 16 — Run the Validation Definition
@@ -265,23 +282,7 @@ def validations_spotify():
         validation_result.success,
     )
     
-    # =========================================================
-    # [PRUEBA CONTROLADA DE ERRORES SPOTIFY - DESCOMENTAR PARA PROBAR]
-    # =========================================================
-    # df_bad_spotify = df.copy()
-    # # Inyectar valores nulos en track_id (Falla Critical)
-    # df_bad_spotify.loc[df_bad_spotify.index[:50], "track_id"] = None
-    # # Inyectar energía fuera de rango (Falla Critical)
-    # df_bad_spotify.loc[df_bad_spotify.index[:50], "energy"] = 99.0
-    #
-    # bad_spotify_result = validation_definition.run(
-    #     batch_parameters={"dataframe": df_bad_spotify},
-    #     result_format={"result_format": "SUMMARY"}
-    # )
-    # print("\n--- [PRUEBA CONTROLADA SPOTIFY] ---")
-    # print("Éxito de la validación con datos corruptos:", bad_spotify_result.success)
-    # =========================================================
-    
+
     # ---------------------------------------------------------
     # Step 17 — Inspect the Validation Results
     # ---------------------------------------------------------
@@ -505,7 +506,22 @@ def grammy_validations():
         "Validation Definition name:",
         validation_definition.name,
     )
-
+    # =========================================================
+    # [PRUEBA CONTROLADA DE ERRORES GRAMMYS - DESCOMENTAR PARA PROBAR]
+    # =========================================================
+    df_bad_grammys = df_grammys.copy()
+    # # Inyectar años fuera de rango (Falla Critical)
+    df_bad_grammys.loc[df_bad_grammys.index[:50], "year"] = 1800
+    # # Inyectar categorías nulas (Falla Critical)
+    df_bad_grammys.loc[df_bad_grammys.index[:50], "category"] = None
+    #
+    bad_grammys_result = validation_definition.run(
+         batch_parameters={"dataframe": df_bad_grammys},
+         result_format={"result_format": "SUMMARY"}
+     )
+    print("\n--- [PRUEBA CONTROLADA GRAMMYS] ---")
+    print("Éxito de la validación con datos corruptos:", bad_grammys_result.success)
+    
     # ---------------------------------------------------------
     # Step 16 — Run the Validation Definition
     # ---------------------------------------------------------
@@ -525,22 +541,7 @@ def grammy_validations():
         "Overall validation success:",
         validation_result.success,
     )
-    # =========================================================
-    # [PRUEBA CONTROLADA DE ERRORES GRAMMYS - DESCOMENTAR PARA PROBAR]
-    # =========================================================
-    # df_bad_grammys = df_grammys.copy()
-    # # Inyectar años fuera de rango (Falla Critical)
-    # df_bad_grammys.loc[df_bad_grammys.index[:50], "year"] = 1800
-    # # Inyectar categorías nulas (Falla Critical)
-    # df_bad_grammys.loc[df_bad_grammys.index[:50], "category"] = None
-    #
-    # bad_grammys_result = validation_definition.run(
-    #     batch_parameters={"dataframe": df_bad_grammys},
-    #     result_format={"result_format": "SUMMARY"}
-    # )
-    # print("\n--- [PRUEBA CONTROLADA GRAMMYS] ---")
-    # print("Éxito de la validación con datos corruptos:", bad_grammys_result.success)
-    
+
     # ---------------------------------------------------------
     # Step 17 — Inspect the Validation Results
     # ---------------------------------------------------------

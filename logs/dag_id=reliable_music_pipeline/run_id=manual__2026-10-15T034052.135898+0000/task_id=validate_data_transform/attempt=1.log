@@ -1,0 +1,567 @@
+{"timestamp":"2026-10-15T03:45:05.439591Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 569. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-10-15T03:45:05.739554Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-10-15T03:45:05.746845Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/reliable_music_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-10-15T03:45:06.076114Z","level":"info","event":"Skipping registering function get_context because it does not have a class","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":115}
+{"timestamp":"2026-10-15T03:45:12.375568Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.375853Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.375951Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.376012Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.381669Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.381830Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.381933Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.382017Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.385740Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.385900Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.385978Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.386043Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.390772Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.390972Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.391057Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.391133Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.395947Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.396185Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.396316Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.396422Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.559009Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.559363Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.559557Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.559732Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.646496Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.646836Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.646996Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.647156Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.647328Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.647520Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.647682Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.647822Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.647950Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.648069Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.648186Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.648309Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.648464Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.648624Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.648713Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.648802Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.648873Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.648930Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.652015Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.652180Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.652260Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.652327Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.657984Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.658449Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.658732Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.658990Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.659232Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.659493Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.659782Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.660009Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.660232Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.660561Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.660822Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.661055Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.661287Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.661519Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.661705Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.661845Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.661957Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.662066Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.667462Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.667900Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.668195Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.668454Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.668686Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.668909Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.669214Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.669459Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.669715Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.669924Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.670130Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.670414Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.670662Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.670895Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.671038Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.671151Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.671254Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.671357Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.678517Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.678906Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.679258Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.679532Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.679799Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.680058Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.680297Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.680538Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.680756Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.680949Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.681164Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.681389Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.681635Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.681920Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.682074Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.682189Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.682363Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.682490Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.698522Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.698779Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.698926Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.699055Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.718011Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.718242Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.718404Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.718501Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.724513Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.724844Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.725070Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.725219Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.731886Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.732189Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.732442Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.732580Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.738853Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.739084Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.739237Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.739315Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.827149Z","level":"info","event":"Multiple declarations of metric table.column_types for engine PandasExecutionEngine.","logger":"great_expectations.expectations.registry","filename":"registry.py","lineno":290}
+{"timestamp":"2026-10-15T03:45:12.827615Z","level":"info","event":"Multiple declarations of metric table.column_types for engine SparkDFExecutionEngine.","logger":"great_expectations.expectations.registry","filename":"registry.py","lineno":290}
+{"timestamp":"2026-10-15T03:45:12.835651Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.835892Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.835992Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.836064Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.847430Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.847700Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.847811Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.847917Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.985088Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.985787Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.986294Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.986637Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.986996Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.987300Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.987550Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.987781Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.987992Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.988270Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.988633Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.988931Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.989122Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.989356Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.989579Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.989758Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.997909Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.998397Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.998681Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:12.998849Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.008978Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.009656Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.010055Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.010381Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.010646Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.010875Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.011347Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.011730Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.012046Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.012315Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.012563Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.012791Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.012947Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.013074Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.013241Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.013343Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.019728Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.020168Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.020414Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.020598Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.020746Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.020877Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.021299Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.021586Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.021845Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.022095Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.022278Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.022414Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.022493Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.022557Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.022626Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.022689Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.029434Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.029798Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.029976Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.030182Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.030480Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.030729Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.030998Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.031222Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.031363Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.031491Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.031612Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.031767Z","level":"info","event":"Skipping registering function DataSourceManager._bind_asset_factory_method_if_not_present.<locals>._add_asset_factory because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.031847Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.031963Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.032041Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.032108Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.033714Z","level":"info","event":"Multiple declarations of metric column.standard_deviation for engine PandasExecutionEngine.","logger":"great_expectations.expectations.registry","filename":"registry.py","lineno":290}
+{"timestamp":"2026-10-15T03:45:13.033884Z","level":"info","event":"Multiple declarations of metric column.standard_deviation.aggregate_fn for engine SparkDFExecutionEngine.","logger":"great_expectations.expectations.registry","filename":"registry.py","lineno":290}
+{"timestamp":"2026-10-15T03:45:13.033953Z","level":"info","event":"Multiple declarations of metric column.standard_deviation for engine SparkDFExecutionEngine.","logger":"great_expectations.expectations.registry","filename":"registry.py","lineno":290}
+{"timestamp":"2026-10-15T03:45:13.045615Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.045829Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.045918Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.045987Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.053294Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.053490Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.053574Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.053640Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.067167Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.067356Z","level":"info","event":"Skipping registering function DataSourceManager._register_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.067488Z","level":"info","event":"Skipping registering function DataSourceManager._register_add_or_update_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.067570Z","level":"info","event":"Skipping registering function DataSourceManager._register_delete_datasource.<locals>.crud_method_info because it is a closure","logger":"great_expectations._docs_decorators","filename":"_docs_decorators.py","lineno":109}
+{"timestamp":"2026-10-15T03:45:13.955446Z","level":"info","event":"Dataset shape: (114000, 21)","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:13.956186Z","level":"info","event":"Created temporary directory '/tmp/tmp6xothvrk' for ephemeral docs site","logger":"great_expectations.data_context.types.base","filename":"base.py","lineno":1399}
+{"timestamp":"2026-10-15T03:45:13.956837Z","level":"info","event":"Loading 'datasources' ->\n[]","logger":"great_expectations.datasource.fluent.config","filename":"config.py","lineno":191}
+{"timestamp":"2026-10-15T03:45:13.964708Z","level":"info","event":"GX Data Context created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:13.966313Z","level":"info","event":"Context type: EphemeralDataContext","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:13.977228Z","level":"info","event":"Pandas Data Source created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:13.978398Z","level":"info","event":"Data Source name: Spotify_pandas_source","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:13.989389Z","level":"info","event":"Data Asset created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:13.991668Z","level":"info","event":"Data Asset name: Spotify_applications","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.003935Z","level":"info","event":"Batch Definition created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.005425Z","level":"info","event":"Batch Definition name: whole_spotify_dataframe","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.194146Z","level":"info","event":"Batch created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.195271Z","level":"info","event":"Batch type: Batch","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.286920Z","level":"info","event":"Validation Definition created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.288286Z","level":"info","event":"Validation Definition name: spotify_validation_definition","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.771823Z","level":"error","event":"\rCalculating Metrics:   0%|          | 0/63 [00:00<?, ?it/s]\rCalculating Metrics:   0%|          | 0/63 [00:00<?, ?it/s]\rCalculating Metrics:   3%|▎         | 2/63 [00:00<00:00, 4621.82it/s]\rCalculating Metrics:   3%|▎         | 2/63 [00:00<00:00, 2877.74it/s]\rCalculating Metrics:   5%|▍         | 3/63 [00:00<00:00, 3750.50it/s]\rCalculating Metrics:   5%|▍         | 3/63 [00:00<00:00, 3069.75it/s]\rCalculating Metrics:  29%|██▊       | 18/63 [00:00<00:00, 174.58it/s]\rCalculating Metrics:  29%|██▊       | 18/63 [00:00<00:00, 174.58it/s]\rCalculating Metrics:  29%|██▊       | 18/63 [00:00<00:00, 174.58it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 247.47it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 247.47it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 247.47it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 247.47it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 238.57it/s]","logger":"task.stderr"}
+{"timestamp":"2026-10-15T03:45:14.817998Z","level":"info","event":"Validation executed successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.819512Z","level":"info","event":"Overall validation success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.820668Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.821942Z","level":"info","event":"Validation Summary","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.823073Z","level":"info","event":"------------------","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.824144Z","level":"info","event":"Overall success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.825362Z","level":"info","event":"Expectations evaluated: 10","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.826639Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.827702Z","level":"info","event":"Expectation: ExpectColumnValuesToNotBeNull","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.828655Z","level":"info","event":"Column: track_id","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.829906Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.831042Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.832383Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.833467Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.834534Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.835651Z","level":"info","event":"Expectation: ExpectColumnValuesToNotBeNull","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.836641Z","level":"info","event":"Column: artists","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.837807Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.838994Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.840462Z","level":"info","event":"Unexpected count: 1","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.841831Z","level":"info","event":"Unexpected percent: 0.0008771929824561403","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.843158Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.844288Z","level":"info","event":"Expectation: ExpectColumnValuesToNotBeNull","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.845318Z","level":"info","event":"Column: track_name","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.846621Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.847982Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.849306Z","level":"info","event":"Unexpected count: 1","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.850567Z","level":"info","event":"Unexpected percent: 0.0008771929824561403","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.853302Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.855328Z","level":"info","event":"Expectation: ExpectColumnValuesToNotBeNull","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.857213Z","level":"info","event":"Column: album_name","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.859686Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.861294Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.862576Z","level":"info","event":"Unexpected count: 1","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.864220Z","level":"info","event":"Unexpected percent: 0.0008771929824561403","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.865648Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.868665Z","level":"info","event":"Expectation: ExpectColumnValuesToBeInSet","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.870697Z","level":"info","event":"Column: explicit","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.874192Z","level":"info","event":"Severity: FailureSeverity.WARNING","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.875867Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.877409Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.878812Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.880178Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.881598Z","level":"info","event":"Expectation: ExpectColumnValuesToBeBetween","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.882739Z","level":"info","event":"Column: energy","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.883871Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.885268Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.886517Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.888338Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.891534Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.893597Z","level":"info","event":"Expectation: ExpectColumnValuesToBeBetween","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.895370Z","level":"info","event":"Column: popularity","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.897018Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.898380Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.899475Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.900410Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.902201Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.904224Z","level":"info","event":"Expectation: ExpectColumnValuesToBeBetween","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.906358Z","level":"info","event":"Column: duration_ms","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.908304Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.909753Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.911447Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.913842Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.916654Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.918888Z","level":"info","event":"Expectation: ExpectColumnValuesToBeBetween","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.920257Z","level":"info","event":"Column: duration_ms","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.922404Z","level":"info","event":"Severity: FailureSeverity.WARNING","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.923717Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.925028Z","level":"info","event":"Unexpected count: 17","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.926435Z","level":"info","event":"Unexpected percent: 0.014912280701754387","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.927688Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.930288Z","level":"info","event":"Expectation: ExpectColumnValuesToBeBetween","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.931884Z","level":"info","event":"Column: danceability","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.933357Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.935002Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.936607Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.938106Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.940118Z","level":"info","event":"Checkpoint created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:14.941891Z","level":"info","event":"Checkpoint name: candidate_validation_checkpoint","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.277442Z","level":"error","event":"\rCalculating Metrics:   0%|          | 0/63 [00:00<?, ?it/s]\rCalculating Metrics:   0%|          | 0/63 [00:00<?, ?it/s]\rCalculating Metrics:   3%|▎         | 2/63 [00:00<00:00, 3053.73it/s]\rCalculating Metrics:   3%|▎         | 2/63 [00:00<00:00, 2110.34it/s]\rCalculating Metrics:   5%|▍         | 3/63 [00:00<00:00, 2826.99it/s]\rCalculating Metrics:   5%|▍         | 3/63 [00:00<00:00, 2457.12it/s]\rCalculating Metrics:  29%|██▊       | 18/63 [00:00<00:00, 221.46it/s]\rCalculating Metrics:  29%|██▊       | 18/63 [00:00<00:00, 220.60it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 268.39it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 268.39it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 268.39it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 268.39it/s]\rCalculating Metrics: 100%|██████████| 63/63 [00:00<00:00, 267.95it/s]","logger":"task.stderr"}
+{"timestamp":"2026-10-15T03:45:15.328641Z","level":"info","event":"Checkpoint executed successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.330488Z","level":"info","event":"Checkpoint success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.409550Z","level":"info","event":"✅ Extracción exitosa. Se obtuvieron 4,810 filas.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.509643Z","level":"info","event":"✅ Extracción exitosa. Se obtuvieron 4,810 filas.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.511032Z","level":"info","event":"Dataset shape: (4810, 10)","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.510426Z","level":"info","event":"Created temporary directory '/tmp/tmp5egt2s6s' for ephemeral docs site","logger":"great_expectations.data_context.types.base","filename":"base.py","lineno":1399}
+{"timestamp":"2026-10-15T03:45:15.511365Z","level":"info","event":"Loading 'datasources' ->\n[]","logger":"great_expectations.datasource.fluent.config","filename":"config.py","lineno":191}
+{"timestamp":"2026-10-15T03:45:15.517759Z","level":"info","event":"GX Data Context created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.519162Z","level":"info","event":"Context type: EphemeralDataContext","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.527612Z","level":"info","event":"Pandas Data Source created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.528941Z","level":"info","event":"Data Source name: Spotify_pandas_source","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.538805Z","level":"info","event":"Data Asset created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.540180Z","level":"info","event":"Data Asset name: Grammys_applications","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.550907Z","level":"info","event":"Batch Definition created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.552350Z","level":"info","event":"Batch Definition name: whole_grammys_dataframe","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.561478Z","level":"info","event":"Batch created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.562997Z","level":"info","event":"Batch type: Batch","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.580909Z","level":"info","event":"Validation Definition created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.582297Z","level":"info","event":"Validation Definition name: grammys_validation_definition","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.628841Z","level":"error","event":"\rCalculating Metrics:   0%|          | 0/25 [00:00<?, ?it/s]\rCalculating Metrics:   0%|          | 0/25 [00:00<?, ?it/s]\rCalculating Metrics:   8%|▊         | 2/25 [00:00<00:00, 5203.85it/s]\rCalculating Metrics:   8%|▊         | 2/25 [00:00<00:00, 3598.72it/s]\rCalculating Metrics:  12%|█▏        | 3/25 [00:00<00:00, 4655.17it/s]\rCalculating Metrics:  12%|█▏        | 3/25 [00:00<00:00, 3934.62it/s]\rCalculating Metrics:  32%|███▏      | 8/25 [00:00<00:00, 1433.58it/s]\rCalculating Metrics:  32%|███▏      | 8/25 [00:00<00:00, 1378.06it/s]\rCalculating Metrics: 100%|██████████| 25/25 [00:00<00:00, 1411.77it/s]\rCalculating Metrics: 100%|██████████| 25/25 [00:00<00:00, 1391.03it/s]\rCalculating Metrics: 100%|██████████| 25/25 [00:00<00:00, 1382.93it/s]\rCalculating Metrics: 100%|██████████| 25/25 [00:00<00:00, 1373.36it/s]","logger":"task.stderr"}
+{"timestamp":"2026-10-15T03:45:15.653073Z","level":"info","event":"Validation executed successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.655914Z","level":"info","event":"Overall validation success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.657275Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.658767Z","level":"info","event":"Validation Summary","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.660266Z","level":"info","event":"------------------","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.661562Z","level":"info","event":"Overall success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.662991Z","level":"info","event":"Expectations evaluated: 4","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.664378Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.665567Z","level":"info","event":"Expectation: ExpectColumnValuesToBeBetween","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.666856Z","level":"info","event":"Column: year","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.667994Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.669268Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.670496Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.671786Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.673065Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.674462Z","level":"info","event":"Expectation: ExpectColumnValuesToBeBetween","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.675758Z","level":"info","event":"Column: year","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.677101Z","level":"info","event":"Severity: FailureSeverity.WARNING","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.678616Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.680453Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.681956Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.683935Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.685260Z","level":"info","event":"Expectation: ExpectColumnValuesToNotBeNull","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.686601Z","level":"info","event":"Column: category","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.687903Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.689081Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.690092Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.691440Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.692815Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.694084Z","level":"info","event":"Expectation: ExpectColumnValuesToNotBeNull","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.695248Z","level":"info","event":"Column: nominee","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.696451Z","level":"info","event":"Severity: FailureSeverity.CRITICAL","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.697998Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.699896Z","level":"info","event":"Unexpected count: 6","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.701025Z","level":"info","event":"Unexpected percent: 0.12474012474012475","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.702207Z","level":"info","event":"Checkpoint created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.703518Z","level":"info","event":"Checkpoint name: grammys_validation_checkpoint","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.738727Z","level":"error","event":"\rCalculating Metrics:   0%|          | 0/25 [00:00<?, ?it/s]\rCalculating Metrics:   0%|          | 0/25 [00:00<?, ?it/s]\rCalculating Metrics:   8%|▊         | 2/25 [00:00<00:00, 2628.83it/s]\rCalculating Metrics:   8%|▊         | 2/25 [00:00<00:00, 2050.50it/s]\rCalculating Metrics:  12%|█▏        | 3/25 [00:00<00:00, 2785.68it/s]\rCalculating Metrics:  12%|█▏        | 3/25 [00:00<00:00, 2530.75it/s]\rCalculating Metrics:  32%|███▏      | 8/25 [00:00<00:00, 991.91it/s] \rCalculating Metrics:  32%|███▏      | 8/25 [00:00<00:00, 964.79it/s]\rCalculating Metrics: 100%|██████████| 25/25 [00:00<00:00, 1015.61it/s]\rCalculating Metrics: 100%|██████████| 25/25 [00:00<00:00, 1007.36it/s]\rCalculating Metrics: 100%|██████████| 25/25 [00:00<00:00, 1004.88it/s]\rCalculating Metrics: 100%|██████████| 25/25 [00:00<00:00, 1002.20it/s]","logger":"task.stderr"}
+{"timestamp":"2026-10-15T03:45:15.766865Z","level":"info","event":"Checkpoint executed successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.768416Z","level":"info","event":"Checkpoint success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.821476Z","level":"warning","event":"urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.5) doesn't match a supported version!","category":"RequestsDependencyWarning","filename":"/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/vendored/requests/__init__.py","lineno":113,"logger":"py.warnings"}
+{"timestamp":"2026-10-15T03:45:15.865578Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.866589Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.867889Z","level":"info","event":"Current task name:validate_data_transform","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.869184Z","level":"info","event":"Dag name:reliable_music_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:15.870496Z","level":"info","event":"Iniciando validación de datos transformados...","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.424535Z","level":"warning","event":"Columns (2) have mixed types. Specify dtype option on import or set low_memory=False.","category":"DtypeWarning","filename":"/opt/airflow/dags/reliable_music_pipeline.py","lineno":88,"logger":"py.warnings"}
+{"timestamp":"2026-10-15T03:45:16.473813Z","level":"info","event":"Dataset shape: (117859, 24)","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.474042Z","level":"info","event":"Created temporary directory '/tmp/tmpe270142h' for ephemeral docs site","logger":"great_expectations.data_context.types.base","filename":"base.py","lineno":1399}
+{"timestamp":"2026-10-15T03:45:16.474611Z","level":"info","event":"Loading 'datasources' ->\n[]","logger":"great_expectations.datasource.fluent.config","filename":"config.py","lineno":191}
+{"timestamp":"2026-10-15T03:45:16.478310Z","level":"info","event":"GX Data Context created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.479723Z","level":"info","event":"Context type: EphemeralDataContext","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.481603Z","level":"info","event":"Pandas Data Source created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.483049Z","level":"info","event":"Data Source name: Prepared_pandas_source","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.485177Z","level":"info","event":"Data Asset created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.486191Z","level":"info","event":"Data Asset name: Prepared_integrated","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.488881Z","level":"info","event":"Batch Definition created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.490182Z","level":"info","event":"Batch Definition name: whole_prepared_dataframe","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.652108Z","level":"info","event":"Batch created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.653775Z","level":"info","event":"Batch type: Batch","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.771796Z","level":"info","event":"Validation Definition created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:16.773901Z","level":"info","event":"Validation Definition name: prepared_validation_definition","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.281742Z","level":"error","event":"\rCalculating Metrics:   0%|          | 0/130 [00:00<?, ?it/s]\rCalculating Metrics:   0%|          | 0/130 [00:00<?, ?it/s]\rCalculating Metrics:   8%|▊         | 10/130 [00:00<00:01, 117.88it/s]\rCalculating Metrics:   8%|▊         | 10/130 [00:00<00:01, 117.25it/s]\rCalculating Metrics:  12%|█▏        | 15/130 [00:00<00:00, 175.61it/s]\rCalculating Metrics:  12%|█▏        | 15/130 [00:00<00:00, 175.09it/s]\rCalculating Metrics:  35%|███▍      | 45/130 [00:00<00:01, 62.22it/s] \rCalculating Metrics:  35%|███▍      | 45/130 [00:00<00:01, 62.22it/s]\rCalculating Metrics:  35%|███▍      | 45/130 [00:00<00:01, 62.22it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 64.94it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 64.94it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 64.94it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 64.94it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 64.63it/s]","logger":"task.stderr"}
+{"timestamp":"2026-10-15T03:45:19.420510Z","level":"info","event":"Validation executed successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.421975Z","level":"info","event":"Overall validation success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.423344Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.424376Z","level":"info","event":"Validation Summary","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.425517Z","level":"info","event":"------------------","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.426689Z","level":"info","event":"Overall success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.427891Z","level":"info","event":"Expectations evaluated: 19","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.428850Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.429875Z","level":"info","event":"Rule ID: P01","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.430730Z","level":"info","event":"Expectation: expect_table_columns_to_match_set","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.431667Z","level":"info","event":"Column: (tabla)","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.432724Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.434581Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.436631Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.438429Z","level":"info","event":"Unexpected percent: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.440082Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.441590Z","level":"info","event":"Rule ID: P04","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.443192Z","level":"info","event":"Expectation: expect_compound_columns_to_be_unique","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.444896Z","level":"info","event":"Column: track_id, track_genre, year, category, nominee","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.446492Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.447889Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.449313Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.451571Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.453027Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.454449Z","level":"info","event":"Rule ID: P02","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.456103Z","level":"info","event":"Expectation: expect_column_values_to_be_in_set","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.457627Z","level":"info","event":"Column: match_status","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.459008Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.460358Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.461681Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.462916Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.464400Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.465715Z","level":"info","event":"Rule ID: P03","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.467026Z","level":"info","event":"Expectation: expect_column_values_to_be_in_set","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.468740Z","level":"info","event":"Column: nominee_type","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.470382Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.471843Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.473109Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.474372Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.475661Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.476972Z","level":"info","event":"Rule ID: P05","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.478428Z","level":"info","event":"Expectation: expect_column_values_to_be_between","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.479900Z","level":"info","event":"Column: win_count","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.481295Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.483379Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.484941Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.486349Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.487540Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.488909Z","level":"info","event":"Rule ID: P06","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.490200Z","level":"info","event":"Expectation: expect_column_values_to_not_be_null","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.491549Z","level":"info","event":"Column: track_id","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.492963Z","level":"info","event":"Severity: warning","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.494125Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.495444Z","level":"info","event":"Unexpected count: 2063","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.496761Z","level":"info","event":"Unexpected percent: 87.04641350210971","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.498058Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.499385Z","level":"info","event":"Rule ID: P08","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.500803Z","level":"info","event":"Expectation: expect_column_values_to_not_be_null","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.502291Z","level":"info","event":"Column: track_id","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.503583Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.504773Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.506095Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.507482Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.508743Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.510080Z","level":"info","event":"Rule ID: P07","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.511503Z","level":"info","event":"Expectation: expect_column_values_to_not_be_null","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.515009Z","level":"info","event":"Column: winner_album_name","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.516344Z","level":"info","event":"Severity: warning","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.517502Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.518857Z","level":"info","event":"Unexpected count: 1302","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.520138Z","level":"info","event":"Unexpected percent: 91.11266620013996","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.521575Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.524578Z","level":"info","event":"Rule ID: P09","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.525806Z","level":"info","event":"Expectation: expect_column_values_to_not_be_null","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.527292Z","level":"info","event":"Column: track_genre","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.529237Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.531072Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.532249Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.533544Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.534904Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.537797Z","level":"info","event":"Rule ID: P10","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.540978Z","level":"info","event":"Expectation: expect_column_values_to_be_between","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.543413Z","level":"info","event":"Column: energy","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.544535Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.546529Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.548370Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.549792Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.551033Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.552447Z","level":"info","event":"Rule ID: P10","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.553649Z","level":"info","event":"Expectation: expect_column_values_to_be_between","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.554937Z","level":"info","event":"Column: danceability","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.556355Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.557727Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.559562Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.560612Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.561564Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.562951Z","level":"info","event":"Rule ID: P11","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.564110Z","level":"info","event":"Expectation: expect_column_values_to_be_between","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.565110Z","level":"info","event":"Column: popularity","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.567024Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.568308Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.569442Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.570615Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.571898Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.573068Z","level":"info","event":"Rule ID: P12","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.574358Z","level":"info","event":"Expectation: expect_column_values_to_be_between","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.575641Z","level":"info","event":"Column: genre_weight","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.576969Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.578441Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.579755Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.581134Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.582430Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.583813Z","level":"info","event":"Rule ID: P13","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.585118Z","level":"info","event":"Expectation: expect_column_values_to_be_between","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.586576Z","level":"info","event":"Column: duration_ms","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.588489Z","level":"info","event":"Severity: warning","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.590163Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.591664Z","level":"info","event":"Unexpected count: 16","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.593115Z","level":"info","event":"Unexpected percent: 0.014081903873403684","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.594512Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.595881Z","level":"info","event":"Rule ID: P14","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.597184Z","level":"info","event":"Expectation: expect_column_values_to_be_in_set","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.598494Z","level":"info","event":"Column: duration_category","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.599839Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.601295Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.602495Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.603837Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.605442Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.607002Z","level":"info","event":"Rule ID: P15","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.608325Z","level":"info","event":"Expectation: expect_column_values_to_be_between","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.609620Z","level":"info","event":"Column: year","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.610914Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.612259Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.613479Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.614782Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.615855Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.617117Z","level":"info","event":"Rule ID: P16","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.618168Z","level":"info","event":"Expectation: expect_column_values_to_be_in_set","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.619732Z","level":"info","event":"Column: category_group","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.621411Z","level":"info","event":"Severity: critical","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.622769Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.624023Z","level":"info","event":"Unexpected count: 0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.625404Z","level":"info","event":"Unexpected percent: 0.0","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.626742Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.629331Z","level":"info","event":"Rule ID: P18","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.631424Z","level":"info","event":"Expectation: expect_column_values_to_not_be_in_set","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.632751Z","level":"info","event":"Column: category_group","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.634364Z","level":"info","event":"Severity: info","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.635913Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.637299Z","level":"info","event":"Unexpected count: 328","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.638771Z","level":"info","event":"Unexpected percent: 7.216721672167218","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.639997Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.641169Z","level":"info","event":"Rule ID: P17","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.642329Z","level":"info","event":"Expectation: expect_column_values_to_not_be_in_set","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.643585Z","level":"info","event":"Column: grammy_artists","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.644812Z","level":"info","event":"Severity: warning","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.646397Z","level":"info","event":"Success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.647699Z","level":"info","event":"Unexpected count: 1374","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.648885Z","level":"info","event":"Unexpected percent: 30.23102310231023","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.650125Z","level":"info","event":"Checkpoint created successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:19.651628Z","level":"info","event":"Checkpoint name: prepared_validation_checkpoint","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:22.036769Z","level":"error","event":"\rCalculating Metrics:   0%|          | 0/130 [00:00<?, ?it/s]\rCalculating Metrics:   0%|          | 0/130 [00:00<?, ?it/s]\rCalculating Metrics:   8%|▊         | 10/130 [00:00<00:01, 97.20it/s]\rCalculating Metrics:   8%|▊         | 10/130 [00:00<00:01, 97.20it/s]\rCalculating Metrics:   8%|▊         | 10/130 [00:00<00:01, 97.20it/s]\rCalculating Metrics:  12%|█▏        | 15/130 [00:00<00:01, 97.20it/s]\rCalculating Metrics:  12%|█▏        | 15/130 [00:00<00:01, 97.20it/s]\rCalculating Metrics:  35%|███▍      | 45/130 [00:00<00:01, 54.30it/s]\rCalculating Metrics:  35%|███▍      | 45/130 [00:00<00:01, 54.30it/s]\rCalculating Metrics:  35%|███▍      | 45/130 [00:00<00:01, 54.30it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 61.80it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 61.80it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 61.80it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 61.80it/s]\rCalculating Metrics: 100%|██████████| 130/130 [00:02<00:00, 61.48it/s]","logger":"task.stderr"}
+{"timestamp":"2026-10-15T03:45:22.132039Z","level":"info","event":"Checkpoint executed successfully.","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:22.133752Z","level":"info","event":"Checkpoint success: True","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:22.171418Z","level":"info","event":"Evidence saved in: docs/evidence","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:22.173528Z","level":"info","event":"¡Validación de transformación exitosa!","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:22.173594Z","level":"info","event":"Done. Returned value was: /opt/airflow/data/staging/transformed_dataset.csv","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-10-15T03:45:22.174105Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01a13da6-0550-761e-be52-47de43e824c9'), task_id='validate_data_transform', dag_id='reliable_music_pipeline', run_id='manual__2026-10-15T03:40:52.135898+00:00', try_number=1, dag_version_id=UUID('01a13397-e7d7-71bd-bbd1-cc006e662e15'), map_index=-1, hostname='42338c3c7661', context_carrier={}, task=<Task(_PythonDecoratedOperator): validate_data_transform>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 10, 15, 3, 45, 5, 407281, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1573}
+{"timestamp":"2026-10-15T03:45:22.216663Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:22.217918Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-10-15T03:45:22.219411Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): validate_data_transform>","logger":"task.stdout"}

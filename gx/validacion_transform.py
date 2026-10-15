@@ -392,6 +392,29 @@ def validations_prepared(df_integrated, output_dir="docs/evidence"):
         "Validation Definition name:",
         validation_definition.name,
     )
+    
+    # =========================================================
+    # [PRUEBA CONTROLADA DE ERRORES - DESCOMENTAR PARA PROBAR]
+    # =========================================================
+    df_bad = df_integrated.copy()
+    # # Falla P10 (Critical): Energy fuera de rango (0.0 - 1.0)
+    df_bad.loc[df_bad.index[:20], "energy"] = 15.0
+    # # Falla P11 (Critical): Popularity negativa
+    df_bad.loc[df_bad.index[:20], "popularity"] = -100
+     # Falla P09 (Critical): Inyectar nulos en track_genre
+    df_bad.loc[df_bad.index[:20], "track_genre"] = None
+    
+    bad_validation_result = validation_definition.run(
+         batch_parameters={"dataframe": df_bad},
+         result_format={"result_format": "SUMMARY"}
+     )
+    print("\n--- [PRUEBA CONTROLADA DE FALLA TRANSFORMA] ---")
+    print("Éxito de la validación con datos corruptos:", bad_validation_result.success)
+    for res in bad_validation_result.results:
+         if not res.success:
+             print(f" -> Regla fallida: {res.expectation_config.meta.get('rule_id')} | Inesperados: {res.result.get('unexpected_count')}")
+   
+
 
     # ---------------------------------------------------------
     # Step 16 — Run the Validation Definition
@@ -413,27 +436,6 @@ def validations_prepared(df_integrated, output_dir="docs/evidence"):
         validation_result.success,
     )
     
-    # =========================================================
-    # [PRUEBA CONTROLADA DE ERRORES - DESCOMENTAR PARA PROBAR]
-    # =========================================================
-    # df_bad = df_integrated.copy()
-    # # Falla P10 (Critical): Energy fuera de rango (0.0 - 1.0)
-    # df_bad.loc[df_bad.index[:20], "energy"] = 15.0
-    # # Falla P11 (Critical): Popularity negativa
-    # df_bad.loc[df_bad.index[:20], "popularity"] = -100
-    # # Falla P09 (Critical): Inyectar nulos en track_genre
-    # df_bad.loc[df_bad.index[:20], "track_genre"] = None
-    #
-    # bad_validation_result = validation_definition.run(
-    #     batch_parameters={"dataframe": df_bad},
-    #     result_format={"result_format": "SUMMARY"}
-    # )
-    # print("\n--- [PRUEBA CONTROLADA DE FALLA TRANSFORMA] ---")
-    # print("Éxito de la validación con datos corruptos:", bad_validation_result.success)
-    # for res in bad_validation_result.results:
-    #     if not res.success:
-    #         print(f" -> Regla fallida: {res.expectation_config.meta.get('rule_id')} | Inesperados: {res.result.get('unexpected_count')}")
-    # =========================================================
 
     # ---------------------------------------------------------
     # Step 17 — Inspect the Validation Results

@@ -1,0 +1,1124 @@
+{
+  "success": true,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_table_columns_to_match_set",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column_set": [
+            "track_id",
+            "track_name",
+            "explicit",
+            "artists",
+            "album_name",
+            "main_artists",
+            "track_genre",
+            "duration_category",
+            "energy",
+            "danceability",
+            "popularity",
+            "duration_ms",
+            "genre_weight",
+            "year",
+            "decade",
+            "category",
+            "category_group",
+            "nominee",
+            "nominee_type",
+            "grammy_artists",
+            "win_count",
+            "winner_album_name",
+            "winner_album_artists",
+            "match_status"
+          ],
+          "exact_match": false
+        },
+        "meta": {
+          "rule_id": "P01"
+        },
+        "id": "b13ab6b1-8502-4668-979c-1f9dcc2e4878",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": [
+          "album_name",
+          "artists",
+          "category",
+          "category_group",
+          "danceability",
+          "decade",
+          "duration_category",
+          "duration_ms",
+          "energy",
+          "explicit",
+          "genre_weight",
+          "grammy_artists",
+          "main_artists",
+          "match_status",
+          "nominee",
+          "nominee_type",
+          "popularity",
+          "track_genre",
+          "track_id",
+          "track_name",
+          "win_count",
+          "winner_album_artists",
+          "winner_album_name",
+          "year"
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_compound_columns_to_be_unique",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column_list": [
+            "track_id",
+            "track_genre",
+            "year",
+            "category",
+            "nominee"
+          ]
+        },
+        "meta": {
+          "rule_id": "P04"
+        },
+        "id": "2f947ed3-d7d1-471b-8d9d-a36eba07d2e6",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 117859,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "match_status",
+          "value_set": [
+            "both",
+            "spotify_only",
+            "grammy_only"
+          ]
+        },
+        "meta": {
+          "rule_id": "P02"
+        },
+        "id": "5d23cd26-0e1c-4f8f-bd2d-17e38dc0a7a6",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 117859,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "nominee_type",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"spotify_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "value_set": [
+            "song",
+            "album",
+            "artist",
+            "unknown"
+          ]
+        },
+        "meta": {
+          "rule_id": "P03"
+        },
+        "id": "a8dcd1fe-2257-42c0-b2c3-59ddc3389e42",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 4545,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "win_count",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"spotify_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "min_value": 1.0,
+          "max_value": 1.0
+        },
+        "meta": {
+          "rule_id": "P05"
+        },
+        "id": "b0142eb6-f9e6-48af-98df-a03b11b05980",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 4545,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "track_id",
+          "mostly": 0.05,
+          "row_condition": {
+            "pass_through_filter": "nominee_type == \"song\" and match_status != \"spotify_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas"
+        },
+        "meta": {
+          "rule_id": "P06"
+        },
+        "id": "e2c10638-8af1-4980-a24d-28a294d00207",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 2370,
+        "unexpected_count": 2063,
+        "unexpected_percent": 87.04641350210971,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          113622,
+          113624,
+          113629,
+          113630,
+          113631,
+          113634,
+          113635,
+          113636,
+          113639,
+          113640,
+          113641,
+          113643,
+          113644,
+          113647,
+          113652,
+          113653,
+          113661,
+          113662,
+          113677,
+          113687
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "track_id",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"grammy_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas"
+        },
+        "meta": {
+          "rule_id": "P08"
+        },
+        "id": "8091827b-8782-4569-a4e2-afd7cdde6a6e",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 113621,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "winner_album_name",
+          "mostly": 0.05,
+          "row_condition": {
+            "pass_through_filter": "nominee_type == \"album\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas"
+        },
+        "meta": {
+          "rule_id": "P07"
+        },
+        "id": "21feae75-2616-4af4-82c0-89beb00e9175",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 1429,
+        "unexpected_count": 1302,
+        "unexpected_percent": 91.11266620013996,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          113625,
+          113628,
+          113633,
+          113637,
+          113638,
+          113642,
+          113645,
+          113646,
+          113648,
+          113649,
+          113650,
+          113651,
+          113654,
+          113656,
+          113658,
+          113659,
+          113660,
+          113663,
+          113665,
+          113666
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "track_genre",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"grammy_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas"
+        },
+        "meta": {
+          "rule_id": "P09"
+        },
+        "id": "32fcc76f-e1cd-44fd-bbca-1498526286eb",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 113621,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "energy",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"grammy_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {
+          "rule_id": "P10"
+        },
+        "id": "7f869d2d-1690-4008-bf6e-7288b370f9a5",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 113621,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "danceability",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"grammy_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {
+          "rule_id": "P10"
+        },
+        "id": "b38dd21e-9c43-4524-b8a4-0bc72e253dfd",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 113621,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "popularity",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"grammy_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "min_value": 0.0,
+          "max_value": 100.0
+        },
+        "meta": {
+          "rule_id": "P11"
+        },
+        "id": "392034ef-f98d-433e-bf6e-78b1d56e43fc",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 113621,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "genre_weight",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"grammy_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "min_value": 0.0,
+          "max_value": 1.0,
+          "strict_min": true
+        },
+        "meta": {
+          "rule_id": "P12"
+        },
+        "id": "ea11a880-dd82-4d75-bdd5-e70f031b4db2",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 113621,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "duration_ms",
+          "mostly": 0.99,
+          "row_condition": {
+            "pass_through_filter": "match_status != \"grammy_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "min_value": 30000.0
+        },
+        "meta": {
+          "rule_id": "P13"
+        },
+        "id": "73e57e27-5da4-47c7-844d-4fd5a42808aa",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 113621,
+        "unexpected_count": 16,
+        "unexpected_percent": 0.014081903873403684,
+        "partial_unexpected_list": [
+          24266.0,
+          17826.0,
+          23506.0,
+          24000.0,
+          8586.0,
+          21120.0,
+          24666.0,
+          28026.0,
+          21240.0,
+          28946.0,
+          15800.0,
+          13386.0,
+          22266.0,
+          23506.0,
+          17826.0,
+          17453.0
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.014081903873403684,
+        "unexpected_percent_nonmissing": 0.014081903873403684,
+        "partial_unexpected_counts": [
+          {
+            "value": 17826.0,
+            "count": 2
+          },
+          {
+            "value": 23506.0,
+            "count": 2
+          },
+          {
+            "value": 8586.0,
+            "count": 1
+          },
+          {
+            "value": 13386.0,
+            "count": 1
+          },
+          {
+            "value": 15800.0,
+            "count": 1
+          },
+          {
+            "value": 17453.0,
+            "count": 1
+          },
+          {
+            "value": 21120.0,
+            "count": 1
+          },
+          {
+            "value": 21240.0,
+            "count": 1
+          },
+          {
+            "value": 22266.0,
+            "count": 1
+          },
+          {
+            "value": 24000.0,
+            "count": 1
+          },
+          {
+            "value": 24266.0,
+            "count": 1
+          },
+          {
+            "value": 24666.0,
+            "count": 1
+          },
+          {
+            "value": 28026.0,
+            "count": 1
+          },
+          {
+            "value": 28946.0,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          92182,
+          98282,
+          98308,
+          100901,
+          108536,
+          108539,
+          108628,
+          108641,
+          108826,
+          108943,
+          108980,
+          109024,
+          110093,
+          110844,
+          110888,
+          111201
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "duration_category",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"grammy_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "value_set": [
+            "Corta",
+            "Media",
+            "Larga"
+          ]
+        },
+        "meta": {
+          "rule_id": "P14"
+        },
+        "id": "f4b6a4cb-9661-4d7e-80d1-4326314a989a",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 113621,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "year",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"spotify_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "min_value": 1958.0,
+          "max_value": 2019.0
+        },
+        "meta": {
+          "rule_id": "P15"
+        },
+        "id": "5ab6afed-4701-4454-bf16-2d97363cadf0",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 4545,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "category_group",
+          "row_condition": {
+            "pass_through_filter": "match_status != \"spotify_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "value_set": [
+            "General Field",
+            "R&B",
+            "Rap",
+            "Country",
+            "Jazz",
+            "Latin",
+            "Classical",
+            "Gospel",
+            "Reggae",
+            "Dance/Electronic",
+            "Folk/Roots",
+            "Blues",
+            "Alternative",
+            "Rock",
+            "Pop",
+            "Production/Technical",
+            "Children/Comedy/Theater",
+            "World/New Age",
+            "Instrumental/Composition",
+            "Music Video",
+            "Other"
+          ]
+        },
+        "meta": {
+          "rule_id": "P16"
+        },
+        "id": "1c120bd7-096e-4b24-8040-7c81207ab1d9",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 4545,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_in_set",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "category_group",
+          "mostly": 0.85,
+          "row_condition": {
+            "pass_through_filter": "match_status != \"spotify_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "value_set": [
+            "Other"
+          ]
+        },
+        "meta": {
+          "rule_id": "P18"
+        },
+        "id": "7aae6112-1756-4a64-b7d0-3af8545f9ee4",
+        "severity": "info"
+      },
+      "result": {
+        "element_count": 4545,
+        "unexpected_count": 328,
+        "unexpected_percent": 7.216721672167218,
+        "partial_unexpected_list": [
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other",
+          "Other"
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 7.216721672167218,
+        "unexpected_percent_nonmissing": 7.216721672167218,
+        "partial_unexpected_counts": [
+          {
+            "value": "Other",
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          5810,
+          11821,
+          111160,
+          113637,
+          113674,
+          113675,
+          113676,
+          113677,
+          113688,
+          113700,
+          113720,
+          113754,
+          113755,
+          113756,
+          113757,
+          113768,
+          113780,
+          113795,
+          113831,
+          113832
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_in_set",
+        "kwargs": {
+          "batch_id": "Prepared_pandas_source-Prepared_integrated",
+          "column": "grammy_artists",
+          "mostly": 0.6,
+          "row_condition": {
+            "pass_through_filter": "match_status != \"spotify_only\"",
+            "type": "pass_through"
+          },
+          "condition_parser": "pandas",
+          "value_set": [
+            "unknown"
+          ]
+        },
+        "meta": {
+          "rule_id": "P17"
+        },
+        "id": "002af44f-7162-48a2-9f51-cb467872e64d",
+        "severity": "warning"
+      },
+      "result": {
+        "element_count": 4545,
+        "unexpected_count": 1374,
+        "unexpected_percent": 30.23102310231023,
+        "partial_unexpected_list": [
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown"
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 30.23102310231023,
+        "unexpected_percent_nonmissing": 30.23102310231023,
+        "partial_unexpected_counts": [
+          {
+            "value": "unknown",
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          113636,
+          113641,
+          113644,
+          113647,
+          113652,
+          113653,
+          113662,
+          113674,
+          113676,
+          113677,
+          113678,
+          113679,
+          113680,
+          113681,
+          113682,
+          113683,
+          113684,
+          113686,
+          113687,
+          113688
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "prepared_suite",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 19,
+    "successful_expectations": 19,
+    "unsuccessful_expectations": 0,
+    "success_percent": 100.0
+  },
+  "meta": {
+    "great_expectations_version": "1.23.1",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20261015T035409.783046Z",
+      "pandas_data_fingerprint": "a74bdbddb7e9cb54ea514d2923602f89"
+    },
+    "active_batch_definition": {
+      "datasource_name": "Prepared_pandas_source",
+      "data_connector_name": "fluent",
+      "data_asset_name": "Prepared_integrated",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "2ef9e0d2-b7d1-479f-874a-e6c9a79a8de5",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-10-15T03:54:13.089677+00:00"
+    },
+    "validation_time": "2026-10-15T03:54:13.089677+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}
