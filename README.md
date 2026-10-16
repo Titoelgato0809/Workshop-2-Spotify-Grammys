@@ -405,7 +405,7 @@ The model is a **fact constellation**: two business processes that share conform
 
 | Fact | Business process | Grain (one row represents) | Measures |
 |---|---|---|---|
-| `fact_song` | Sound characterization of songs by genre | One track, in one genre, by its main artist | `energy`, `danceability`, `popularity`, `duration_ms`, `genre_weight` |
+| `fact_song` | Sound characterization of songs by genre | One track, in one or more genre, by its main artist | `energy`, `danceability`, `popularity`, `duration_ms`, `genre_weight` |
 | `fact_winner` | Grammy awards | One winner, in one category, in one year | `win_count` |
 
 ```mermaid
